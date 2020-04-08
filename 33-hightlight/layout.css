@@ -1,0 +1,51 @@
+body,html {
+    font-size: 1.2em;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+textarea {
+    font-size: 1em
+}
+
+.main {
+    height: 80%;
+    margin: 25px auto;
+    width: 90%
+}
+
+input {
+    font-size: .8em;
+    height: 60px;
+    margin-top: 10px;
+    width: 100px
+}
+
+pre {
+    margin: 12px 0
+}
+
+div {
+    position: relative
+}
+
+i+i {
+    color: gray;
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+pre+i {
+    color: gray;
+    position: absolute;
+    right: 30px;
+    top: 10px
+}
+
+i+i:hover,pre+i:hover {
+    color: #fff;
+    cursor: pointer
+}

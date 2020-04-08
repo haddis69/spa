@@ -1,0 +1,27 @@
+.main{
+    width: 360px;
+    margin: 50px auto;
+    font-size: 1.0em;
+}
+
+#calculate{
+    width: 70px;
+    margin-left: 62px;
+}
+
+input,label{
+    margin: 6px 0;
+    padding-left: 4px;
+    font-size: 2em;
+}
+
+span{
+    color: red;
+}
+
+#width-validation-message,
+#height-validation-message{
+    color: red;
+    margin-left: 62px;
+    font-size: 0.8em;
+}
